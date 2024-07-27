@@ -1,0 +1,268 @@
+@media all and (max-width: 1451px) {
+    .nav-icon {
+        margin-right: 400px;
+    }
+
+    .main-screen-pics-section  {
+        margin-left: -150px;
+    }
+}
+
+@media all and (max-width: 1451px) {
+    .nav-icon {
+        margin-right: 300px;
+    }
+
+    .about-us-section-content {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (max-width: 1260px) {
+    .special-offer-img img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media all and (max-width: 1148px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .main-nav-list-item {
+        margin: 0px 70px;
+    }
+
+    .nav-icon {
+        margin: 50px 50px 50px -130px;
+    }
+
+    .main-screen-title {
+        top: 60px;
+        left: 350px;
+        width: 420px;
+    }
+
+    .main-screen-pizza-img {
+        top: 260px;
+        left: 380px;
+        width: 540px;
+    }
+    
+    .main-screen-ketchup-img {
+        top: 240px;
+        left: 745px;
+        width: 70px;
+    }
+    
+    .main-screen-cola-img {
+        top: 160px;
+        left: 800px;
+        width: 80px;
+    }
+    
+    .main-screen-vege-img {
+        top: 280px;
+        left: 715px;
+        width: 300px;
+    }
+
+    .about-us-section-content {
+        flex-basis: 60%;
+    }
+}
+
+@media all and (max-width: 1008px) {
+    .main-nav-list-item {
+        margin: 0px 45px;
+    }
+
+    .main-screen-pics-section  {
+        margin-left: -245px;
+    }
+
+    .about-us-section-content {
+        flex-basis: 100%;
+        padding: 50px;
+    }
+
+    .special-offer {
+        margin: 40px 20px;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+        padding: 80px 130px;
+    }
+
+    .footer-icon img {
+        margin-bottom: 60px;
+    }
+}
+
+
+@media all and (max-width: 858px) {
+    .main-screen-pics-section  {
+        margin-left: -290px;
+    }
+
+    .main-nav-list-item {
+        margin: 0px 30px;
+    }
+    
+    .special-offers-content {
+        flex-direction: column;
+    }
+
+    .special-offer {
+        margin: 40px 0px;
+    }
+
+    .special-offer-img img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .special-offer-actions h3 {
+        margin: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .footer-content-info,
+    .footer-icon,
+    .footer-content-working-time {
+        padding: 50px 0px;
+    }
+
+    .footer-icon::after {
+        top: 130px
+    }
+
+    .footer-content-info p {
+        width: 210px;
+        position: relative;
+        left: 35px;
+    }
+}
+
+@media all and (max-width: 770px) {
+    header {
+        height: 900px;
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+    }
+
+    .main-nav-list-item {
+        margin: 0;
+        border: 1px solid white;
+        width: 250px;
+    }
+
+    .main-screen-title {
+        top: 50px;
+        left: 280px;
+        width: 320px;
+    }
+
+    .main-screen-pizza-img {
+        top: 230px;
+        left: 280px;
+        width: 400px;
+    }
+    
+    .main-screen-ketchup-img {
+        top: 220px;
+        left: 560px;
+        width: 56px;
+    }
+    
+    .main-screen-cola-img {
+        top: 150px;
+        left: 600px;
+        width: 64px;
+    }
+    
+    .main-screen-vege-img {
+        top: 250px;
+        left: 515px;
+        width: 240px;
+    }
+
+    .promotions {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+}
+
+@media all and (max-width: 540px) {
+    .main-nav-list {
+        flex-direction: column;
+    }
+
+    .main-nav-list-item {
+        margin: 0;
+        border: 1px solid white;
+        width: 250px;
+    }
+
+    .main-nav-list-item a {
+        font-size: 16px;
+    }
+
+    .main-screen-title {
+        top: 30px;
+        left: 330px;
+        width: 240px;
+    }
+
+    .main-screen-pizza-img {
+        top: 150px;
+        left: 330px;
+        width: 300px;
+    }
+    
+    .main-screen-ketchup-img {
+        top: 140px;
+        left: 530px;
+        width: 42px;
+    }
+    
+    .main-screen-cola-img {
+        top: 90px;
+        left: 565px;
+        width: 48px;
+    }
+    
+    .main-screen-vege-img {
+        top: 165px;
+        left: 510px;
+        width: 180px;
+    }
+
+    .promotion-pic {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 413px) {
+    header,
+    main,
+    footer {
+        width: 420px;
+    }
+}

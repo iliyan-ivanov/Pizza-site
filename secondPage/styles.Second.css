@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    background: rgb(111, 46, 46);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+.nav-icon {
+    position: relative;
+    margin-right: 600px;
+}
+
+.nav-icon::after {
+    position: absolute;
+    font-family: "Jaro", sans-serif;
+    content: "My Pizza";
+    color: white;
+    width: 155px;
+    font-size: 45px;
+    top: 8px;
+    left: 90px;
+}
+
+.main-nav-list {
+    display: flex;
+    padding: 0;
+}
+
+.main-nav-list-item {
+    list-style: none;
+    padding: 10px;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.main-nav-list-item:first-child {
+    margin-left: 0;
+}
+
+.main-nav-list-item:last-child {
+    margin-right: 0;
+}
+
+.main-nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.menu-section {
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(152, 152, 129);
+}
+
+.menu-headers {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.menu-headers h3 {
+    font-size: 22px;
+}
+
+.menu-headers h4 {
+    font-size: 16px;
+}
+
+.menu-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-section-content h2 {
+    font-size: 40px;
+    color: rgb(111, 46, 46);
+    text-shadow: 3px 1px black;
+    box-shadow: 0px 2px black;
+}
+
+.menu-section-pizzas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pizza-offer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 10px 10px 5px 7px rgb(111, 46, 46);
+    margin: 20px;
+    background: rgb(179, 166, 113);
+}
+
+.pizza-offer img {
+    padding: 50px;
+}
+
+.menu-prizes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.menu-prizes p {
+    padding: 80px 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 80px;
+    background: rgb(49, 46, 46);
+}
+
+.footer-content-info,
+.footer-icon,
+.footer-content-working-time {
+    width: 270px;
+    text-align: center;
+    color: white;
+}
+
+.footer-content-info p {
+    text-align: justify;
+}
+
+.footer-content-working-time ul {
+    position: relative;
+    text-align: justify;
+    left: 40px;
+}
+
+.footer-icon {
+    position: relative;
+    text-align: center;
+}
+
+.footer-icon::after {
+    position: absolute;
+    font-family: "Jaro", sans-serif;
+    content: "My Pizza";
+    font-size: 45px;
+    top: 88px;
+    left: 60px;
+}
+
+.footer-content-working-time ul {
+    padding: 0;
+}
+
+.footer-content-working-time li {
+    list-style: none;
+}
+
+.footer-ending {
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 50px;
+    justify-content: center;
+}
+
+.footer-ending p {
+    color: white;
+    margin: 0;
+}
