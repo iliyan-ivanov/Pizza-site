@@ -1,1 +1,1 @@
-This is a "PIzza site" project. For now I start it with adding only responsible HTML and CSS main page for it.
+This is a "PIzza site" project. For now I start it with adding only responsible HTML and CSS main page for it. I deploy it on "vercel", so you can check it online here: https://pizza-site-lyart.vercel.app/
