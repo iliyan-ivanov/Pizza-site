@@ -257,6 +257,10 @@
     .promotion-pic {
         width: 300px;
     }
+
+    .about-us-section {
+        height: 100%;
+    }
 }
 
 @media all and (max-width: 413px) {
