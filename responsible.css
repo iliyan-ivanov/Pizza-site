@@ -254,6 +254,10 @@
         width: 180px;
     }
 
+    .about-us-section-content {
+        padding: 0;
+    }
+
     .promotion-pic {
         width: 300px;
     }
@@ -263,10 +267,59 @@
     }
 }
 
-@media all and (max-width: 413px) {
+@media all and (max-width: 450px) {
     header,
     main,
     footer {
-        width: 420px;
+        max-width: 450px;
+    }
+
+    .main-nav-list-item {
+        margin: 0;
+        border: 1px solid white;
+        width: 200px;
+    }
+
+    .main-screen-title {
+        top: 30px;
+        left: 330px;
+        width: 200px;
+    }
+
+    .main-screen-pizza-img {
+        top: 150px;
+        left: 330px;
+        width: 250px;
+    }
+    
+    .main-screen-ketchup-img {
+        top: 140px;
+        left: 500px;
+        width: 32px;
+    }
+    
+    .main-screen-cola-img {
+        top: 115px;
+        left: 530px;
+        width: 35px;
+    }
+    
+    .main-screen-vege-img {
+        top: 165px;
+        left: 490px;
+        width: 120px;
+    }
+
+    .about-us-section-content h2 {
+        width: 150px;
+    }
+
+    .promotion-pic {
+        width: 220px;
+    }
+
+    .special-offer-img img {
+        width: 220px;
+        height: 220px;
     }
 }
